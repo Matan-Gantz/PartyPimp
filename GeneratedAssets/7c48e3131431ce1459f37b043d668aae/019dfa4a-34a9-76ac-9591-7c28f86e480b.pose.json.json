@@ -1,0 +1,12 @@
+{
+    "asset": "7c48e3131431ce1459f37b043d668aae",
+    "fileName": "019dfa4a-34a9-76ac-9591-7c28f86e480b.pose.json",
+    "prompt": "A standard walk animation for a stylized biped character, casual pace, natural arm swing.",
+    "negativePrompt": "",
+    "model": "unity-text-to-motion",
+    "modelName": "Text to Motion",
+    "customSeed": 1678257817,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}

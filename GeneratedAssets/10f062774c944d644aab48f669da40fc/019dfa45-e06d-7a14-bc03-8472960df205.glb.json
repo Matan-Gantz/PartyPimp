@@ -1,0 +1,23 @@
+{
+    "asset": "10f062774c944d644aab48f669da40fc",
+    "fileName": "019dfa45-e06d-7a14-bc03-8472960df205.glb",
+    "prompt": "A stylized 3D character of a boy with street style, black t-shirt with globe icon, green cargo pants, brown spiky hair, and a fanny pack. Clean geometry, high detail textures. Perfect match for the provided front, side and back views.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1-multiview",
+    "modelName": "Tripo P1 (Multi-View)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "b131bf17cb9d297459d09376c8563de7",
+    "multiviewBackGuid": "6b889be8ec0296d4fa9829231425097d",
+    "multiviewLeftGuid": "e9bf6fb4e7ffea348880acd821df15c1",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

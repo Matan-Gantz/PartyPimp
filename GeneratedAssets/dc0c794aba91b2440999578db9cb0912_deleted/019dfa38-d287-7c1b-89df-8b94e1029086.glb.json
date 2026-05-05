@@ -1,0 +1,23 @@
+{
+    "asset": "dc0c794aba91b2440999578db9cb0912",
+    "fileName": "019dfa38-d287-7c1b-89df-8b94e1029086.glb",
+    "prompt": "A stylized 3D character of a 'Party Chef', cute, vinyl toy aesthetic, holding a spatula and wearing a tall chef's hat, round proportions, matching the provided front, side, and back reference images perfectly. PBR textures. High quality, smooth surfaces.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1-multiview",
+    "modelName": "Tripo P1 (Multi-View)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "a18f80d4360fa0f43a415afea6851a49",
+    "multiviewBackGuid": "fc2232504630af74baed063f2208386a",
+    "multiviewLeftGuid": "219a790f52271b8449d2c733a58d041a",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

@@ -1,0 +1,12 @@
+{
+    "asset": "37e4fc204d48a734dba1e0279bcdc46e",
+    "fileName": "019dfa4a-36ce-7c43-ba1a-54b59e651ff7.pose.json",
+    "prompt": "A standard idle animation for a stylized biped character, relaxed pose, subtle breathing.",
+    "negativePrompt": "",
+    "model": "unity-text-to-motion",
+    "modelName": "Text to Motion",
+    "customSeed": 1376451872,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}

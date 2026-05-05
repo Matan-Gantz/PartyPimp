@@ -1,0 +1,12 @@
+{
+    "asset": "2d5e1c9301895a14a9d29866aed5329a",
+    "fileName": "019dfa4a-30d7-7588-8b12-da7a22cc80e9.pose.json",
+    "prompt": "A standard run animation for a stylized biped character, athletic pace, determined look.",
+    "negativePrompt": "",
+    "model": "unity-text-to-motion",
+    "modelName": "Text to Motion",
+    "customSeed": 1109218641,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "isTrimmed": false
+}
