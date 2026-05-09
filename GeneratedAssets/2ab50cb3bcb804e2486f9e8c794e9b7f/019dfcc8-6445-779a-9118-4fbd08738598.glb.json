@@ -1,0 +1,23 @@
+{
+    "asset": "2ab50cb3bcb804e2486f9e8c794e9b7f",
+    "fileName": "019dfcc8-6445-779a-9118-4fbd08738598.glb",
+    "prompt": "Stylized interior wall segment, 1m wide, chunky proportions, rounded edges, painted brick. Bottom-center pivot. Optimized for top-down games.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "4b5d86973266042429df8533baaa08bc",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

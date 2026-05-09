@@ -1,0 +1,28 @@
+{
+    "asset": "0ca669a8144ef497ba9cfeecbb66eb25",
+    "fileName": "019dfcc9-2070-7ba3-b8c2-1cf344c2dd07.jpg",
+    "prompt": "Stylized kitchen sink, chunky rounded edges, chrome faucet, hand-painted look, Overcooked style, white background, single isolated object.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

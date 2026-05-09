@@ -1,0 +1,12 @@
+{
+    "asset": "4afa617ebb445401680ce7a9cd5971ab",
+    "fileName": "019dfada-63e6-78b4-8d1c-9f0e30ce2416_Preview.jpg",
+    "prompt": "Seamless floor tiles, stylized hand-painted, warm brown clay tiles, subtle grout, clean and cozy, Overcooked style, slightly rounded tile edges, non-noisy, saturated warm tones",
+    "negativePrompt": "",
+    "model": "hand-painted-textures-2-0",
+    "modelName": "Hand Painted Textures 2.0",
+    "customSeed": 1749376196,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

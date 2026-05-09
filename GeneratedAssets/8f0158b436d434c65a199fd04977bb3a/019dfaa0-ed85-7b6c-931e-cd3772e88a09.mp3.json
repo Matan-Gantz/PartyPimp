@@ -1,0 +1,15 @@
+{
+    "asset": "8f0158b436d434c65a199fd04977bb3a",
+    "fileName": "019dfaa0-ed85-7b6c-931e-cd3772e88a09.mp3",
+    "prompt": "Upbeat, catchy electronic party music, danceable rhythm.",
+    "negativePrompt": "",
+    "model": "google-lyria-3-clip",
+    "modelName": "Google Lyria 3 Clip",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

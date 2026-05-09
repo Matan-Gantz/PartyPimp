@@ -16,8 +16,9 @@ public enum GuestState
     Paused,
     HeadingToBathroom,
     AutoCollecting,
-    Entering
-}
+    Entering,
+    Dancing
+    }
 
 [RequireComponent(typeof(NavMeshAgent))]
 public class GuestAI : MonoBehaviour
@@ -59,10 +60,14 @@ public class GuestAI : MonoBehaviour
     private float originalStoppingDistance;
     private float individualRateMultiplier;
     private Transform autoCollectTarget;
+    private float defaultSpeed;
+
+    public MusicStation CurrentMusicStation { get; private set; }
 
     private void Awake()
-    {
+{
         agent = GetComponent<NavMeshAgent>();
+        defaultSpeed = agent.speed;
         originalStoppingDistance = agent.stoppingDistance;
         individualRateMultiplier = Random.Range(0.8f, 1.2f);
         
@@ -105,13 +110,42 @@ public class GuestAI : MonoBehaviour
         HandleCooldown();
         UpdateNeeds();
         UpdateState();
+        HandleDancingMovement();
         HandleCrowdSeparation();
         UpdateIndicators();
         CheckStationProximity();
     }
 
-    private void HandleCooldown()
+    private void HandleDancingMovement()
     {
+        if (currentState != GuestState.Dancing || CurrentMusicStation == null) return;
+
+        // Move toward speaker position with soft attraction
+        Vector3 targetPos = CurrentMusicStation.transform.position;
+        Vector3 toSpeaker = (targetPos - transform.position).normalized;
+        toSpeaker.y = 0;
+
+        float dist = Vector3.Distance(transform.position, targetPos);
+        
+        // Soft attraction force
+        if (dist > 1.5f)
+        {
+            agent.Move(toSpeaker * CurrentMusicStation.attractionStrength * Time.deltaTime);
+        }
+
+        // Add small random movement (dance)
+        float danceSpeed = 2f;
+        float danceAmplitude = 0.15f;
+        Vector3 danceOffset = new Vector3(
+            Mathf.Sin(Time.time * danceSpeed + GetHashCode()) * danceAmplitude,
+            0,
+            Mathf.Cos(Time.time * danceSpeed * 0.7f + GetHashCode()) * danceAmplitude
+        );
+        agent.Move(danceOffset * Time.deltaTime);
+    }
+
+    private void HandleCooldown()
+{
         if (currentActiveNeed == GuestNeed.None && currentState != GuestState.Entering)
         {
             cooldownTimer -= Time.deltaTime;
@@ -124,6 +158,8 @@ public class GuestAI : MonoBehaviour
         if (currentActiveNeed == GuestNeed.None) return;
 
         float rate = needIncreaseRate * individualRateMultiplier;
+        if (currentState == GuestState.Dancing) rate *= 0.3f; // Slow down needs while dancing
+
         float currentLevel = 0;
 
         switch (currentActiveNeed)
@@ -208,14 +244,33 @@ public class GuestAI : MonoBehaviour
                 }
                 else EnterState(GuestState.Paused);
                 break;
-        }
-    }
 
-    private void EnterState(GuestState newState)
-    {
-        currentState = newState;
-        switch (newState)
+            case GuestState.Dancing:
+                if (CurrentMusicStation == null || IsInUrgentNeed())
+                {
+                    if (CurrentMusicStation != null) CurrentMusicStation.UnregisterGuest(this);
+                    AssignToMusicStation(null);
+                }
+                break;
+            }
+            }
+
+            private void EnterState(GuestState newState)
+            {
+                    // If we were dancing and moving to a new state, unregister
+        if (currentState == GuestState.Dancing && newState != GuestState.Dancing)
         {
+            if (CurrentMusicStation != null)
+            {
+                CurrentMusicStation.UnregisterGuest(this);
+                CurrentMusicStation = null;
+            }
+        }
+
+        currentState = newState;
+        agent.speed = defaultSpeed;
+            switch (newState)
+            {
             case GuestState.Paused:
                 stateTimer = Random.Range(minPauseTime, maxPauseTime);
                 agent.ResetPath();
@@ -230,8 +285,17 @@ public class GuestAI : MonoBehaviour
             case GuestState.AutoCollecting:
                 agent.stoppingDistance = 1.0f;
                 break;
-        }
-    }
+            case GuestState.Dancing:
+                agent.speed = defaultSpeed * 0.7f;
+                if (CurrentMusicStation != null)
+                {
+                    Vector3 danceSpot = CurrentMusicStation.transform.position + Random.insideUnitSphere * 2.5f;
+                    danceSpot.y = CurrentMusicStation.transform.position.y;
+                    agent.SetDestination(danceSpot);
+                }
+                break;
+            }
+            }
 
     private void SetOrganicDestination()
     {
@@ -364,14 +428,14 @@ public class GuestAI : MonoBehaviour
 
     private void CheckStationProximity()
     {
-        if (currentActiveNeed == GuestNeed.None || currentActiveNeed == GuestNeed.Toilet) return;
+        if (currentActiveNeed == GuestNeed.None || currentActiveNeed == GuestNeed.Toilet || currentState == GuestState.Dancing) return;
 
         Station[] stations = GameObject.FindObjectsByType<Station>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
-        foreach (var s in stations)
+foreach (var s in stations)
         {
-            if (Vector3.Distance(transform.position, s.transform.position) < 1.8f)
+            if (Vector3.Distance(transform.position, s.transform.position) < 1.2f) // Tightened from 1.8f
             {
-                if ((currentActiveNeed == GuestNeed.Thirst && s.stationName.Contains("Drink")) ||
+if ((currentActiveNeed == GuestNeed.Thirst && s.stationName.Contains("Drink")) ||
                     (currentActiveNeed == GuestNeed.Hunger && s.stationName.Contains("Pizza")))
                 {
                     Debug.Log($"[Guest] {gameObject.name} auto-satisfied at {s.stationName}");
@@ -412,5 +476,26 @@ public class GuestAI : MonoBehaviour
         StartSatisfactionCooldown();
         EnterState(GuestState.Paused);
         if (GameManager.Instance != null) GameManager.Instance.OnGuestSatisfied();
+    }
+
+    public bool IsInUrgentNeed()
+    {
+        if (currentActiveNeed == GuestNeed.None) return false;
+        float level = (currentActiveNeed == GuestNeed.Thirst) ? thirstLevel : 
+                      (currentActiveNeed == GuestNeed.Hunger) ? hungerLevel : toiletLevel;
+        return level > 75f; // Lowered from 90f
+    }
+
+    public void AssignToMusicStation(MusicStation station)
+    {
+        CurrentMusicStation = station;
+        if (station != null)
+        {
+            EnterState(GuestState.Dancing);
+        }
+        else if (currentState == GuestState.Dancing)
+        {
+            EnterState(GuestState.Paused);
+        }
     }
 }

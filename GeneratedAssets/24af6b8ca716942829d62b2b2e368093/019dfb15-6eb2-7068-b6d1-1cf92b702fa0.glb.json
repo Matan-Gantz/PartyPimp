@@ -1,0 +1,23 @@
+{
+    "asset": "24af6b8ca716942829d62b2b2e368093",
+    "fileName": "019dfb15-6eb2-7068-b6d1-1cf92b702fa0.glb",
+    "prompt": "3D stylized interior wall segment, chunky proportions, rounded beveled edges, painted brick. Matches concept. Optimized for top-down games.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "2bef407c6453348ac880b3a1f19c70fa",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

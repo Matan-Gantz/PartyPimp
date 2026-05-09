@@ -1,0 +1,12 @@
+{
+    "asset": "504200ae1aa4941d9ba05bbfb068ff40",
+    "fileName": "019dfada-6472-7475-885c-cb123c642a18_Preview.jpg",
+    "prompt": "Seamless floor tiles, stylized hand-painted, neutral gray stone tiles, subtle grout, clean and modern, Overcooked style, slightly rounded tile edges, non-noisy, neutral tones",
+    "negativePrompt": "",
+    "model": "hand-painted-textures-2-0",
+    "modelName": "Hand Painted Textures 2.0",
+    "customSeed": 1654999658,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

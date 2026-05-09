@@ -1,0 +1,23 @@
+{
+    "asset": "18a309767a0244ab08700c79b6def92d",
+    "fileName": "019dfaa0-6117-7f79-8bc9-377ff1862fe8.glb",
+    "prompt": "Stylized low poly party speaker, vibrant colors, simple shapes, minimalist aesthetic.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "c50e91e0f30e64e83bdbc082c3d04b07",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

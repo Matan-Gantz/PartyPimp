@@ -1,0 +1,28 @@
+{
+    "asset": "a13dd4f66b7d34b33b08d9726c3989f9",
+    "fileName": "019dfcc9-2245-712a-8cb0-56da62b63a01.jpg",
+    "prompt": "Stylized kitchen counter, modular, chunky wooden top, white base, rounded corners, hand-painted look, Overcooked style, white background, single isolated object.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

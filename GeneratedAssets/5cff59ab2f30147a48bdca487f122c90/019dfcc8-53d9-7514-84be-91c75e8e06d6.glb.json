@@ -1,0 +1,23 @@
+{
+    "asset": "5cff59ab2f30147a48bdca487f122c90",
+    "fileName": "019dfcc8-53d9-7514-84be-91c75e8e06d6.glb",
+    "prompt": "Stylized wooden door and frame, chunky rounded edges, warm brown wood. Bottom-center pivot. Optimized for top-down games.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "d40aafd388789442dbc8e671a9bf0e4c",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

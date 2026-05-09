@@ -1,0 +1,28 @@
+{
+    "asset": "cab66a51f9722469a97c53e44d460954",
+    "fileName": "019dfade-9e61-7f0b-a98f-393de8eb7cb5.png",
+    "prompt": "Stylized wooden door and frame concept, front view, chunky proportions, rounded edges, warm brown wood, Overcooked game art style, clean silhouette, white background, single isolated object.",
+    "negativePrompt": "",
+    "model": "flux-2-dev",
+    "modelName": "Flux 2 (Dev)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

@@ -1,0 +1,12 @@
+{
+    "asset": "a5eb7d0ae75a445bfa17dba710d43288",
+    "fileName": "019dfada-6353-7df5-b3ee-f06086fd22f3_Preview.jpg",
+    "prompt": "Seamless floor tiles, stylized hand-painted, darker gray-blue tiles, subtle grout, clean and waterproof look, Overcooked style, slightly rounded tile edges, non-noisy, cool tones",
+    "negativePrompt": "",
+    "model": "hand-painted-textures-2-0",
+    "modelName": "Hand Painted Textures 2.0",
+    "customSeed": 649565629,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

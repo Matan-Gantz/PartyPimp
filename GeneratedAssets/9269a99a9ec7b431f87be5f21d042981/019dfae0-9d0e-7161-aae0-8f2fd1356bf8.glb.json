@@ -1,0 +1,23 @@
+{
+    "asset": "9269a99a9ec7b431f87be5f21d042981",
+    "fileName": "019dfae0-9d0e-7161-aae0-8f2fd1356bf8.glb",
+    "prompt": "3D modular door and frame. Frame is 1.2m wide, 2.2m high. Stylized chunky wooden door, rounded beveled edges. Matches reference style. Bottom-center pivot.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "cab66a51f9722469a97c53e44d460954",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

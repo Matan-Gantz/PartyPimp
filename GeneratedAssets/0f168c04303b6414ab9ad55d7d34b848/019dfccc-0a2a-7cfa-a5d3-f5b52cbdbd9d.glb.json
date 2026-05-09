@@ -1,0 +1,23 @@
+{
+    "asset": "0f168c04303b6414ab9ad55d7d34b848",
+    "fileName": "019dfccc-0a2a-7cfa-a5d3-f5b52cbdbd9d.glb",
+    "prompt": "Stylized kitchen counter, chunky rounded edges, matches concept style. 1m x 1m base. Bottom-center pivot.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "a13dd4f66b7d34b33b08d9726c3989f9",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

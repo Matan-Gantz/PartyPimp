@@ -1,0 +1,23 @@
+{
+    "asset": "45cde8d429fc54e7eaa8316af3eff2da",
+    "fileName": "019dfccd-f55a-7097-a360-14bf7cd80f17.glb",
+    "prompt": "Stylized bathroom sink, ceramic white, chunky rounded edges, matches concept style. 1m x 1m base. Bottom-center pivot.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "36187f1e10c1042f69abf55bb29f92d4",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

@@ -1,0 +1,23 @@
+{
+    "asset": "1596f6a6a7f9f4a8a88a364216ee5c65",
+    "fileName": "019dfb11-d579-7db0-95e4-d8f7d489e653.glb",
+    "prompt": "3D interior wooden door and frame. 1.2m wide, 2.5m high, 0.4m depth. Rectangular, stylized chunky wood, rounded corners. Bottom-center pivot. Clean silhouette.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "0579fb20eb511402a88d712a13520a99",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

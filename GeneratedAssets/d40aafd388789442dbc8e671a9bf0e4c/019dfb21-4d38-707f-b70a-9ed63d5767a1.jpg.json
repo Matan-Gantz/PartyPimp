@@ -1,0 +1,28 @@
+{
+    "asset": "d40aafd388789442dbc8e671a9bf0e4c",
+    "fileName": "019dfb21-4d38-707f-b70a-9ed63d5767a1.jpg",
+    "prompt": "Stylized 3D interior wooden door and frame, chunky rounded edges, warm brown wood texture, simple beveled door panel, Overcooked game art style, clean hand-painted look, isolated on white background.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

@@ -1,0 +1,23 @@
+{
+    "asset": "03c6c50ec03b74220ae1c1a1c8acfa12",
+    "fileName": "019dfb11-a693-7eed-8cf7-b9d44b5f5840.glb",
+    "prompt": "3D interior wall segment, 1m wide, 3m high, 0.4m depth. Stylized chunky proportions, rounded edges, painted brick. Bottom-center pivot. Game ready, clean geometry.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "5afcf671ceb0445a3ab36d1898d71938",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

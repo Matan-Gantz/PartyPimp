@@ -1,0 +1,28 @@
+{
+    "asset": "5afcf671ceb0445a3ab36d1898d71938",
+    "fileName": "019dfb0f-cb8d-7ae1-afd1-3a81195b3703.png",
+    "prompt": "Stylized 3D interior wall segment, 1m wide, chunky proportions, rounded edges, painted brick texture, Overcooked game art style, clean silhouette, neutral cream color, white background, isometric-friendly, single isolated object.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

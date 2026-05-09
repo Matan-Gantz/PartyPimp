@@ -1,0 +1,23 @@
+{
+    "asset": "bff61df8d4ad74c80807bc8441c4cf7e",
+    "fileName": "019dfcce-0fd8-7ee4-8cc3-dbefbf64c0a2.glb",
+    "prompt": "Stylized toilet, ceramic white, chunky rounded edges, matches concept style. 1m x 1m footprint. Bottom-center pivot.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "c36ee6731a3234ec78a24103b4a9f170",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

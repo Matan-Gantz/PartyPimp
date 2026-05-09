@@ -1,0 +1,23 @@
+{
+    "asset": "9dd502c47c4fd4213b22d57e6b420167",
+    "fileName": "019dfae0-4bc0-7980-8fbf-92c4b4a2bdff.glb",
+    "prompt": "3D modular wall segment, 1m wide, 2.5m high, 0.2m depth. Stylized chunky proportions, rounded edges, painted brick. Bottom-center pivot. Matches reference style.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "1feec434b057c4b60b9fba2a1ac8e456",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

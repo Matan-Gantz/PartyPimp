@@ -1,0 +1,23 @@
+{
+    "asset": "182c905c72b3042a396b29ee0ef487ca",
+    "fileName": "019dfcca-ccca-7f3b-a426-012f4adf5f4b.glb",
+    "prompt": "Stylized kitchen fridge, chunky rounded edges, matches concept style. 1m x 1m footprint, 2m height. Bottom-center pivot.",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "b098f438509ce4022b25b9bdd062b5d6",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}
